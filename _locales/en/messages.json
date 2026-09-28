@@ -243,6 +243,14 @@
     "message": "Retry",
     "description": ""
   },
+  "chatgpt_win_retrying": {
+    "message": "Retrying…",
+    "description": "Shown in the ChatGPT window panel for a moment after the Retry button is clicked"
+  },
+  "chatgpt_composer_click_to_continue": {
+    "message": "Could not locate the ChatGPT message box. Click inside it to continue.",
+    "description": "Shown in the ChatGPT window panel when the ChatGPT message input cannot be found automatically"
+  },
   "chatgpt_sendbutton_not_found_error": {
     "message": "Click the send button to submit the prompt.",
     "description": ""
@@ -2333,6 +2341,18 @@
   "warn_API_needed": {
     "message": "To use this feature, you need an API integration rather than the ChatGPT Web Integration. You can define a specific API in the feature settings page by first checking the checkbox above and then clicking the button on the left.",
     "description": ""
+  },
+  "specific_integration_mandatory_badge": {
+    "message": "Required",
+    "description": "Badge shown next to the 'Use specific Model and API' toggle when that toggle is forced on and cannot be turned off."
+  },
+  "specific_integration_mandatory_chatgpt_web": {
+    "message": "This option is required and cannot be turned off: the ChatGPT Web Integration selected as the global connection cannot run this feature. Choose a specific API below.",
+    "description": "Explains why the 'Use specific Model and API' toggle is locked on when the global connection is ChatGPT Web."
+  },
+  "specific_integration_mandatory_no_connection": {
+    "message": "This option is required and cannot be turned off: no global AI connection has been selected yet. Choose a specific API below, or configure a global connection in the ThunderAI settings.",
+    "description": "Explains why the 'Use specific Model and API' toggle is locked on when no global connection has been selected."
   },
   "prefs_specific_api_indicator": {
     "message": "Using $1",
